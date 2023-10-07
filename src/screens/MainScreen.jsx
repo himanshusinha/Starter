@@ -37,6 +37,10 @@ const MainScreen = ({navigation}) => {
           title="Go to Sqaure screen"
           onPress={() => navigation.navigate('SquareScreen')}
         />
+        <Button
+          title="Go to Text screen"
+          onPress={() => navigation.navigate('TextScreen')}
+        />
       </View>
     </SafeAreaView>
   );

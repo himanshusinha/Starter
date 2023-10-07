@@ -7,6 +7,7 @@ import {
   HomeScreen,
   ImageScreen,
   MainScreen,
+  TextScreen,
 } from '../screens';
 import ListScreen from '../screens/ListScreen';
 import SquareScreen from '../screens/SquareScreen';
@@ -23,6 +24,7 @@ const AppNavigation = () => {
         <Stack.Screen name="CounterScreen" component={CounterScreen} />
         <Stack.Screen name="ColorScreen" component={ColorScreen} />
         <Stack.Screen name="SquareScreen" component={SquareScreen} />
+        <Stack.Screen name="TextScreen" component={TextScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -5,3 +5,4 @@ export {default as ImageScreen} from '../screens/ImageScreen';
 export {default as CounterScreen} from '../screens/CounterScreen';
 export {default as ColorScreen} from '../screens/ColorScreen';
 export {default as SquareScreen} from '../screens/SquareScreen';
+export {default as TextScreen} from '../screens/TextScreen';
